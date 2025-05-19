@@ -30,7 +30,7 @@ a{
 }
 .menu li{
     margin: 30px;
-    background-color: #d8d285;
+    background-color: #ecdf90;
     padding: 10px;
     text-align: center;
     width: 240px;
@@ -39,7 +39,7 @@ a{
 }
 .menu li:hover{
     cursor: pointer;
-    background-color: #b3c9ec;
+    background-color: #d3c578;
     scale: 1.01;
 }
 .principal{
@@ -50,7 +50,7 @@ a{
     gap: 15px;
 }
 .top{
-    background-color: #cfc06c;
+    background-color: #ecdf90;
     border-radius: 16px;
     height: 15vh;
     width: 78vw;
@@ -66,7 +66,7 @@ a{
     height: 50vh;
     width: 100%;
     padding: 20px;
-    color: #000;
+    color: #000000;
 }
 .conteudo p{
     font-size: 24px;
@@ -100,6 +100,62 @@ a{
     font-size: 20px;
     padding: 20px;
     a{
-        color: #d90429;
+        color: #fa032c;
     }
 }
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #fafafa;
+  }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .formulario {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario input[type="email"],
+  .formulario input[type="password"],
+  .formulario input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .botao-cadastro {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #ecdf90;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .botao-cadastro:hover {
+    background-color: #d3c578;
+  }
+  
+
